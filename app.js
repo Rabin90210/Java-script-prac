@@ -1,13 +1,14 @@
-/*
- *Converting Temperatures
- *
- *Celsius-to-Fahrenheight formula:
- *
- *     F = C x 1.8 + 32
- */
+let subscribed = false
+let  loggedin = true
 
- let Celsius = 10
- let Fahrenheight = Celsius * 1.8 + 32
+if (subscribed === true) {
+    console.log('show the video')
+}
 
- console.log(Fahrenheight)
- 
+else if (logedin === true) {
+    console.log('tell the user to upgrade their subscription') 
+}
+
+else {
+    console.log('tell user to log into account')
+}
