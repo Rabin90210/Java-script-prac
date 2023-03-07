@@ -3,4 +3,4 @@ function fn() {
     console.log('my function')
 }
 
-console.logfn(fn());
+console.logfn(5);
