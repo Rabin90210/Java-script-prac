@@ -1,8 +1,6 @@
-//function definition
-function welcomepersonToFES(firstname, Lastname) {
-    console.log(ˋWelcome to FES, ${firstname} ${lastname}ˋ)
+function fn() {
+    return 'my return'
+    console.log('my function')
 }
 
-// Call the function
-welcomepersontoFES('Rabin', 'Bhandari' );
-welcomepersontoFES('John', 'test' );
+console.logfn(;)
