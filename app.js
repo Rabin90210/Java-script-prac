@@ -1,5 +1,4 @@
-consr str = "Frontend Simplified"
-
-for (let i = 0; i < str.length; ++i) {
-    console.log(str[i])
+//function definition
+function welcomepersonToFES(firstname, Lastname) {
+    console.log(ˋWelcome to FES, ${firstname} ${lastname}ˋ)
 }
