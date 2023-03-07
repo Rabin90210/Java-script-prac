@@ -1,6 +1,6 @@
 function fn() {
-    return 'my return'
+    return 5
     console.log('my function')
 }
 
-console.logfn(;)
+console.logfn(fn());
