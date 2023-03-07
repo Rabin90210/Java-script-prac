@@ -1,5 +1,5 @@
-function sumofwtonumbers() {
-    return 5
+function sumoftwonumbers(num1, num2) {
+    num1 + num2
 }
 
 console.log(sumoftwonumbers(10, 10));
