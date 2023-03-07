@@ -1,6 +1,5 @@
-function fn() {
+function sumofwtonumbers() {
     return 5
-    console.log('my function')
 }
 
-console.logfn(5);
+console.log(sumoftwonumbers(10, 10));
