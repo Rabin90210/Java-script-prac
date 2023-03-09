@@ -1,5 +1,7 @@
-function sumoftwonumbers(num1, num2) {
-    num1 / num2
+function convertCelciousToFahrenheit(celcious){
+    return celsius * 1.8 + 32
 }
 
-console.log(sumoftwonumbers(10, 20));
+console.log(convertCelciousToFahrenheit (0))
+console.log(convertCelciousToFahrenheit (10))
+console.log(convertCelciousToFahrenheit (30))
