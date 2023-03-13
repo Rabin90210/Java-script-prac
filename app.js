@@ -1,9 +1,7 @@
-//function convertCelciousToFahrenheit(celcious){
-//   return celsius * 1.8 + 32
-//}
+lrt arr = [20, 30, 40, 50, 100]
 
-const convertCelciousToFahrenheit = (celsius) => {
-    return celsius * 1.8 + 32
-}
+// First element of array:
+console.log(arr[0])
 
-console.group(convertCelciousToFahrenheit(0))
+//Last element of array:
+console.log(arr[arr.length - 1])
