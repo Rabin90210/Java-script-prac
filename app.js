@@ -33,8 +33,9 @@ function login(email, password) {
         else {
             console.log('password is incorrect - try again')
         }
-        }
-        console.log(users[i]);
+        return;
+     }
+
     } 
 }
 console.log(users[0]);
