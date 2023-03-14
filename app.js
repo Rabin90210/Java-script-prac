@@ -1,22 +1,33 @@
-/*
+let userfirstname = 'Rabin'
+let userlastname ='Bhand'
+let userdiscordId = 'disc'
+let usersubscriptionStatus = 'VIP'
 
 
-*@example
-*['A+', 'A', 'Fail'] => ['A+', 'A']
-*['Fail', 'Fail', 'B'] => ['B']
-*['Fail'] => []
-*/
+let user = {
+{
+    username: 'Rabin',
+    email: 'rabin@blahblah.com',
+    password: 'test123',
+    subscriptionStatus: 'VIP',
+    discordId: 'Disc',
+    lessonscompleted: [0],
+},
+{
+    username: 'sabin',
+    email: 'sabin@blahblah.com',
+    password: 'sad1234',
+    subscriptionStatus: 'VIP',
+    discordId: 'Dsasisc',
+    lessonscompleted: [0, 1, 2, 3],
+},
+};
 
-
-let grades = ['A+', 'A', 'Fail']
-
-let goodGrades = []
-
-
-for (let i = 0; i < grades.length; ++i) {
- if (grades[i] !== 'Fail') {
-    goodGrades.push(grades[i]);
- }
+function login(email, password) {
+    for (let i =0; i < user.length; ++i ) {
+        console.log(users[i]);
+    } 
 }
+console.log(users[0]);
 
-console.log(goodGrades);
+login('rabin@blahblah.com', 'test123')
