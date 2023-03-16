@@ -6,12 +6,7 @@ let usersubscriptionStatus = 'VIP'
 
 let user = {
 {
-    username: 'Rabin',
-    email: 'rabin@blahblah.com',
-    password: 'test123',
-    subscriptionStatus: 'VIP',
-    discordId: 'Disc',
-    lessonscompleted: [0],
+   
 },
 {
     username: 'sabin',
